@@ -60,14 +60,13 @@ header>img{
     overflow: hidden;
 }
 .expeditions{
-    width: 1650px;
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: row;
 }
 .expeditions>section{
-    width: 540px;
+    width: 1000px;
     background-color: lightgray;
     border-radius: 20px;
     overflow: hidden;
@@ -151,7 +150,7 @@ article img{
     text-align:center;
     display:block;
 }
-.expoFilters{
+/* .expoFilters{
     display: flex;
     width: 350px;
     flex-wrap: wrap;
@@ -164,7 +163,9 @@ article img{
     top:0px;
     list-style-type:none;
     margin:0px;
+    flex-direction: column;
     padding:0px;
+    display: flex;
 }
 .expoFilters>ul>li {
     font-size: 16px;
@@ -173,8 +174,7 @@ article img{
     color: white;
     text-decoration: none;
     text-align:center;
-    display:block;
 }
-.expoFilters>ul:last-of-type {
-    justify-content: flex-end;
-}
+.sorting{
+    align-content: flex-end;
+} */
