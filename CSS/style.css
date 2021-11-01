@@ -66,18 +66,27 @@ header>img{
     flex-direction: row;
 }
 .expeditions>section{
+    margin: 0px;
+    margin-top: 14px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
     width: 1000px;
     background-color: lightgray;
     border-radius: 20px;
     overflow: hidden;
 }
-p{
-    margin:16px;
-}
-article img{
+section img{
     border-radius: 20px;
     overflow:hidden;
     object-fit:cover;
+}
+.expeditions h2{
+    width: 500px;
+    text-align: left;
+}
+.expeditions article{
+    margin-left: 8px;
 }
 .about{
     width: 1400px;
