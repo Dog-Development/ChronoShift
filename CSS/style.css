@@ -19,11 +19,14 @@ body{
     text-align:center;
     display:block;
 }
+.expoFilters>ul>li:hover {
+    background-color:purple;
+}
 .aboutNav>ul>li>a:hover {
-    background-color:darkgray;
+    background-color:purple;
 }
 .topnav>ul>li>a:hover {
-    background-color:darkgray;
+    background-color:purple;
 }
 .topnav>ul>li>a.active {
     background-color: gray;
@@ -43,15 +46,28 @@ header{
 header>img{
     border-radius: 20px;
 }
-.expeditions{
+.expeditionsHome{
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: stretch;
 }
-.expeditions>section{
+.expeditionsHome>section{
     width: 420px;
+    background-color: lightgray;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.expeditions{
+    width: 1650px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.expeditions>section{
+    width: 540px;
     background-color: lightgray;
     border-radius: 20px;
     overflow: hidden;
@@ -59,26 +75,25 @@ header>img{
 p{
     margin:16px;
 }
-article>img{
+article img{
     border-radius: 20px;
     overflow:hidden;
     object-fit:cover;
 }
-.aboutMain{
+.about{
     width: 1400px;
     flex-wrap: wrap;
     flex-direction: column;
     background-color: lightgray;
 }
-.aboutMain>section{
+.about>section{
     display: flex;
     flex-direction:row;
     justify-content: space-around;
     padding: 12px;
     margin:6px;
 }
-
-.aboutMain>section>p{
+.about>section>p{
     width: 900px;
 }
 .aboutNav{
@@ -86,12 +101,6 @@ article>img{
     flex-wrap: wrap;
     flex-direction: column;
     background-color: darkgray;
-}
-.pagecontent{
-    position: relative;
-    top:20px;
-    display: flex;
-    justify-content: space-around;
 }
 .aboutNav>ul{
     background-color:black;
@@ -110,6 +119,62 @@ article>img{
     text-align:center;
     display:block;
 }
-.contentimg{
+.borderedimg{
     border:4px solid black;
+}
+.pagecontent{
+    position: relative;
+    top:20px;
+    display: flex;
+    justify-content: space-around;
+}
+.aboutNav{
+    width: 450px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: darkgray;
+}
+.aboutNav>ul{
+    background-color:black;
+    left:0px;
+    top:0px;
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+}
+.aboutNav>ul>li>a {
+    font-size: 16px;
+    padding:8px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align:center;
+    display:block;
+}
+.expoFilters{
+    display: flex;
+    width: 350px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: lightgray;
+}
+.expoFilters>ul{
+    background-color:black;
+    left:0px;
+    top:0px;
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+}
+.expoFilters>ul>li {
+    font-size: 16px;
+    padding:8px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align:center;
+    display:block;
+}
+.expoFilters>ul:last-of-type {
+    justify-content: flex-end;
 }
