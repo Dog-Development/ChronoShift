@@ -1,0 +1,41 @@
+.aboutNav{
+    width: 450px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: darkgray;
+}
+.aboutNav>ul{
+    background-color:black;
+    left:0px;
+    top:0px;
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+}
+.aboutNav>ul>li>a {
+    font-size: 16px;
+    padding:8px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align:center;
+    display:block;
+}.about{
+    width: 1400px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: lightgray;
+}
+.about>section{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 12px;
+    margin:6px;
+}
+.about>section>p{
+    width: 900px;
+}
+.aboutNav>ul>li>a:hover {
+    background-color:purple;
+}

@@ -1,0 +1,17 @@
+.expeditionsHome{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+}
+.expeditionsHome>section{
+    width: 420px;
+    background-color: lightgray;
+    border-radius: 20px;
+    overflow: hidden;
+}
+h2 {
+    border-bottom: double;
+    text-align: center;
+}

@@ -1,0 +1,55 @@
+.expeditions{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.expeditions>section{
+    margin: 0px;
+    margin-top: 14px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    width: 1000px;
+    background-color: lightgray;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.expeditions h2{
+    width: 500px;
+    text-align: left;
+}
+.expeditions article{
+    margin-left: 8px;
+}
+/* .expoFilters{
+    display: flex;
+    width: 350px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: lightgray;
+}
+.expoFilters>ul{
+    background-color:black;
+    left:0px;
+    top:0px;
+    list-style-type:none;
+    margin:0px;
+    flex-direction: column;
+    padding:0px;
+    display: flex;
+}
+.expoFilters>ul>li {
+    font-size: 16px;
+    padding:8px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align:center;
+}
+.sorting{
+    align-content: flex-end;
+}
+.expoFilters>ul>li:hover {
+    background-color:purple;
+}*/
