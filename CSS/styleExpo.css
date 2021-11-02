@@ -10,17 +10,27 @@
     flex-wrap: wrap;
     flex-direction: row;
     display: flex;
-    width: 1000px;
+    width: 900px;
     background-color: lightgray;
     border-radius: 20px;
     overflow: hidden;
 }
 .expeditions h2{
-    width: 500px;
     text-align: left;
 }
 .expeditions article{
+    width: 500px;
     margin-left: 8px;
+}
+.button{
+    background-color: purple;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align:center;
+    padding: 8px;
+    flex-wrap: wrap;
+    width: 100%;
 }
 /* .expoFilters{
     display: flex;
