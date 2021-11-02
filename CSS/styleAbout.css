@@ -39,3 +39,6 @@
 .aboutNav>ul>li>a:hover {
     background-color:purple;
 }
+.aboutNav .active{
+    background-color:gray;
+}
