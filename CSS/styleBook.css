@@ -1,0 +1,8 @@
+form{
+    display: flex;
+    background-color: lightgray;
+    flex-wrap: wrap;
+}
+select{
+    width: 100%;
+}
