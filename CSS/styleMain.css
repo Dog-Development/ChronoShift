@@ -39,6 +39,7 @@ header{
 header>img{
     border-radius: 20px;
     width: 97vw;
+    object-fit: cover;
 }
 section img{
     border-radius: 20px;
@@ -53,4 +54,12 @@ section img{
     top:20px;
     display: flex;
     justify-content: space-around;
+}
+footer{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin:16px;
 }

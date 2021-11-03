@@ -32,6 +32,7 @@
     justify-content: space-around;
     padding: 12px;
     margin:6px;
+    justify-content: flex-start;
 }
 .about>section>p{
     width: 900px;
@@ -41,4 +42,29 @@
 }
 .aboutNav .active{
     background-color:gray;
+}
+.about article{
+    display: flex;
+}
+.about h2{
+    text-align: center;
+}
+.aboutGuides article {
+    max-width: 220px;
+    margin-left: 8px;
+    padding: 0px;
+    flex-wrap: wrap;
+    border-right: 4px solid black;
+}
+.aboutGuides h3{
+    margin: 0px;
+}
+.aboutGuides h4{
+    margin: 0px;
+}
+.aboutGuides h5{
+    margin: 0px;
+}
+.aboutGuides p{
+    margin-left:12px;
 }
