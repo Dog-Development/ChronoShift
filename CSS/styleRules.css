@@ -1,0 +1,7 @@
+section{
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 8px;
+}
