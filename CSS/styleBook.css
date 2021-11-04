@@ -2,7 +2,45 @@ form{
     display: flex;
     background-color: lightgray;
     flex-wrap: wrap;
+    padding:12px;
+    border-radius: 12px;
+    height: 200px;
+    align-items: center;
+    justify-content: space-between;
 }
 select{
     width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+}
+input{
+    padding: 12px;
+    border-radius: 12px;
+}
+input[name="firstName"]{
+    width:30%;
+}
+input[name="lastName"]{
+    width:30%;
+}
+input[name="email"]{
+    width:30%;
+}
+input[name="creditCardNumber"]{
+    width:70%;
+}
+input[name="creditCardCCV"]{
+    width:10%;
+}
+input[name="creditCardExpirationDate"]{
+    width:10%;
+}
+input[type="button"] {
+    background-color: purple;
+    color: white;
+    width: 100%;
+}
+input[type="button"]:hover {
+    background-color: darkviolet;
+    color: white;
 }
