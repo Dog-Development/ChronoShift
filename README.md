@@ -1,1 +1,1 @@
-# ChronoShift Website for CART Assignment
+ChronoShift Expeditions Inc website assignment. If you are reading this please buy me a hamburger I am hungry.
