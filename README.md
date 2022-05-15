@@ -1,1 +1,1 @@
-ChronoShift Expeditions Inc website assignment. If you are reading this please buy me a hamburger I am hungry.
+ChronoShift Expeditions Inc website assignment.
